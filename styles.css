@@ -1,0 +1,173 @@
+body{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  background-color: gray;
+  font-family: monospace;
+  user-select: none;
+  text-shadow: 1px 1px 1px black;
+  color: white;
+}
+
+.player1score{
+  left: 25px;
+  top: 50vh;
+  position: fixed;
+  color: red;
+}
+
+.player2score{
+  right: 25px;
+  top: 50vh;
+  position: fixed;
+  color: yellow;
+}
+
+.player1score p, .player2score p{
+  display: flex;
+  justify-self: center;
+  font-size: 2em;
+}
+
+.player1score h2, .player2score h2{
+  font-size: 2em;
+}
+.playerTurnToken{
+  box-shadow: 1px 1px 1px black; border-radius: 50%; background-color: red; height: 50px; width: 50px; left: 120px; position:fixed;
+}
+
+.winBanner{
+  height:90vh;
+  width:70vw;
+  background-color: whitesmoke;
+  position: fixed;
+  left: 15vw;
+  top: 5vh;
+  border-radius: 25px;
+  display: none;
+  color: white;
+  background-color: black;
+}
+
+.winBanner h1{
+  font-size: 6em;
+  text-align: center;
+}
+
+.winBanner button{
+  display: flex;
+  justify-self: center;
+  padding: 30px 40px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(0, 128, 255);
+  cursor: pointer;
+  color: white;
+  font-family: monospace;
+  transition: all 0.3s ease;
+  font-size: 2em;
+}
+.winBanner button:hover{
+  transform: scale(1.1);
+  border-bottom: 2px solid black;
+}
+
+.playerTurn{
+  font-family: monospace;
+  margin-left: 40px;
+  font-size: 3em;
+  color: red;
+}
+
+.stand1{
+  height: 50vh;
+  width: 20px;
+  background-color: blue;
+  position: fixed;
+  left: 325px;
+  top: 50vh;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.stand2{
+  height: 50vh;
+  width: 20px;
+  background-color: blue;
+  position: fixed;
+  left: 1005px;
+  top: 50vh;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+
+.col1top{position: fixed;height: 170px;width: 100px;top: -85px;left: 300px;}
+
+.col2top{position: fixed;height: 170px;width: 100px;top: -85px;left: 400px;}
+
+.col3top{position: fixed;height: 170px;width: 100px;top: -85px;left: 500px;}
+
+.col4top{position: fixed;height: 170px;width: 100px;top: -85px;left: 600px;}
+
+.col5top{position: fixed;height: 170px;width: 100px;top: -85px;left: 700px;}
+
+.col6top{position: fixed;height: 170px;width: 100px;top: -85px;left: 800px;}
+
+.col7top{position: fixed;height: 170px;width: 100px;top: -85px;left: 900px;}
+
+
+.column1{display: flex;flex-direction: column;gap: 35px;position: fixed;left: 325px; top: 100px; padding: 25px; border-top: none; background-color: blue; border-bottom-left-radius: 20px; border-top-left-radius: 10px;}
+.l11{border-radius: 50%; background-color: gray; height: 50px; width: 50px; box-shadow: 1px 1px 1px black;}
+.l12{border-radius: 50%; background-color: gray; height: 50px; width: 50px; box-shadow: 1px 1px 1px black;}
+.l13{border-radius: 50%; background-color: gray; height: 50px; width: 50px; box-shadow: 1px 1px 1px black;}
+.l14{border-radius: 50%; background-color: gray; height: 50px; width: 50px; box-shadow: 1px 1px 1px black;}
+.l15{border-radius: 50%; background-color: gray; height: 50px; width: 50px; box-shadow: 1px 1px 1px black;}
+.l16{border-radius: 50%; background-color: gray; height: 50px; width: 50px; box-shadow: 1px 1px 1px black;}
+
+.column2{display: flex;flex-direction: column;gap: 35px;position: fixed;left: 425px;top: 100px;padding: 25px;border-top: none; background-color: blue;}
+.l21{border-radius: 50%; background-color: gray; height: 50px; width: 50px; box-shadow: 1px 1px 1px black;}
+.l22{border-radius: 50%; background-color: gray; height: 50px; width: 50px; box-shadow: 1px 1px 1px black;}
+.l23{border-radius: 50%; background-color: gray; height: 50px; width: 50px; box-shadow: 1px 1px 1px black;}
+.l24{border-radius: 50%; background-color: gray; height: 50px; width: 50px; box-shadow: 1px 1px 1px black;}
+.l25{border-radius: 50%; background-color: gray; height: 50px; width: 50px; box-shadow: 1px 1px 1px black;}
+.l26{border-radius: 50%; background-color: gray; height: 50px; width: 50px; box-shadow: 1px 1px 1px black;}
+
+.column3{display: flex;flex-direction: column;gap: 35px;position: fixed;left: 525px;top: 100px;padding: 25px; border-top: none; background-color: blue;}
+.l31{border-radius: 50%; background-color: gray; height: 50px; width: 50px; box-shadow: 1px 1px 1px black;}
+.l32{border-radius: 50%; background-color: gray; height: 50px; width: 50px; box-shadow: 1px 1px 1px black;}
+.l33{border-radius: 50%; background-color: gray; height: 50px; width: 50px; box-shadow: 1px 1px 1px black;}
+.l34{border-radius: 50%; background-color: gray; height: 50px; width: 50px; box-shadow: 1px 1px 1px black;}
+.l35{border-radius: 50%; background-color: gray; height: 50px; width: 50px; box-shadow: 1px 1px 1px black;}
+.l36{border-radius: 50%; background-color: gray; height: 50px; width: 50px; box-shadow: 1px 1px 1px black;}
+
+.column4{display: flex;flex-direction: column;gap: 35px;position: fixed;left: 625px;top: 100px;padding: 25px; border-top: none; background-color: blue;}
+.l41{border-radius: 50%; background-color: gray; height: 50px; width: 50px; box-shadow: 1px 1px 1px black;}
+.l42{border-radius: 50%; background-color: gray; height: 50px; width: 50px; box-shadow: 1px 1px 1px black;}
+.l43{border-radius: 50%; background-color: gray; height: 50px; width: 50px; box-shadow: 1px 1px 1px black;}
+.l44{border-radius: 50%; background-color: gray; height: 50px; width: 50px; box-shadow: 1px 1px 1px black;}
+.l45{border-radius: 50%; background-color: gray; height: 50px; width: 50px; box-shadow: 1px 1px 1px black;}
+.l46{border-radius: 50%; background-color: gray; height: 50px; width: 50px; box-shadow: 1px 1px 1px black;}
+
+.column5{display: flex;flex-direction: column;gap: 35px;position: fixed;left: 725px;top: 100px;padding: 25px; border-top: none; background-color: blue;}
+.l51{border-radius: 50%; background-color: gray; height: 50px; width: 50px; box-shadow: 1px 1px 1px black;}
+.l52{border-radius: 50%; background-color: gray; height: 50px; width: 50px; box-shadow: 1px 1px 1px black;}
+.l53{border-radius: 50%; background-color: gray; height: 50px; width: 50px; box-shadow: 1px 1px 1px black;}
+.l54{border-radius: 50%; background-color: gray; height: 50px; width: 50px; box-shadow: 1px 1px 1px black;}
+.l55{border-radius: 50%; background-color: gray; height: 50px; width: 50px; box-shadow: 1px 1px 1px black;}
+.l56{border-radius: 50%; background-color: gray; height: 50px; width: 50px; box-shadow: 1px 1px 1px black;}
+
+.column6{display: flex;flex-direction: column;gap: 35px;position: fixed;left: 825px;top: 100px;padding: 25px;border-top: none; background-color: blue;}
+.l61{border-radius: 50%; background-color: gray; height: 50px; width: 50px; box-shadow: 1px 1px 1px black;}
+.l62{border-radius: 50%; background-color: gray; height: 50px; width: 50px; box-shadow: 1px 1px 1px black;}
+.l63{border-radius: 50%; background-color: gray; height: 50px; width: 50px; box-shadow: 1px 1px 1px black;}
+.l64{border-radius: 50%; background-color: gray; height: 50px; width: 50px; box-shadow: 1px 1px 1px black;}
+.l65{border-radius: 50%; background-color: gray; height: 50px; width: 50px; box-shadow: 1px 1px 1px black;}
+.l66{border-radius: 50%; background-color: gray; height: 50px; width: 50px; box-shadow: 1px 1px 1px black;}
+
+.column7{display: flex;flex-direction: column;gap: 35px;position: fixed;left: 925px;top: 100px;padding: 25px; border-top: none; background-color: blue; border-bottom-right-radius: 20px; border-top-right-radius: 10px;}
+.l71{border-radius: 50%; background-color: gray; height: 50px; width: 50px; box-shadow: 1px 1px 1px black;}
+.l72{border-radius: 50%; background-color: gray; height: 50px; width: 50px; box-shadow: 1px 1px 1px black;}
+.l73{border-radius: 50%; background-color: gray; height: 50px; width: 50px; box-shadow: 1px 1px 1px black;}
+.l74{border-radius: 50%; background-color: gray; height: 50px; width: 50px; box-shadow: 1px 1px 1px black;}
+.l75{border-radius: 50%; background-color: gray; height: 50px; width: 50px; box-shadow: 1px 1px 1px black; }
+.l76{border-radius: 50%; background-color: gray; height: 50px; width: 50px; box-shadow: 1px 1px 1px black;}
