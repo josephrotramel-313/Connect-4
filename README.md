@@ -1,1 +1,1 @@
-[Duck Duck Go](https://duckduckgo.com)
+[Connect 4](https://connect4awesome.netlify.app)
